@@ -1,0 +1,69 @@
+---
+title: "Getting Started with Next.js 15"
+description: "A practical guide to building modern web applications with Next.js 15 and the App Router."
+date: "2025-12-15"
+tags: ["nextjs", "react", "web-development"]
+---
+
+Next.js 15 brings significant improvements to the developer experience with the App Router, React Server Components, and enhanced performance optimizations.
+
+## Why Next.js?
+
+Next.js provides a full-stack framework that handles routing, rendering, and optimization out of the box. With version 15, the App Router has become the recommended way to build applications.
+
+### Key Features
+
+- **Server Components** — render on the server by default, reducing client-side JavaScript
+- **File-based Routing** — organize your routes using the filesystem
+- **Built-in Optimizations** — automatic image, font, and script optimization
+
+## Setting Up a Project
+
+Getting started is straightforward:
+
+```bash
+npx create-next-app@15 my-app --typescript --tailwind --app
+cd my-app
+npm run dev
+```
+
+## Server Components
+
+By default, all components in the `app/` directory are Server Components:
+
+```tsx title="app/page.tsx"
+export default async function Page() {
+  const data = await fetch('https://api.example.com/posts')
+  const posts = await data.json()
+
+  return (
+    <ul>
+      {posts.map((post: { id: string; title: string }) => (
+        <li key={post.id}>{post.title}</li>
+      ))}
+    </ul>
+  )
+}
+```
+
+You can opt into client-side interactivity with the `"use client"` directive:
+
+```tsx title="components/counter.tsx"
+"use client"
+
+import { useState } from "react"
+
+export function Counter() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <button onClick={() => setCount(count + 1)}>
+      Count: {count}
+    </button>
+  )
+}
+```
+
+## What's Next
+
+In the upcoming posts, we'll explore more advanced patterns like data fetching strategies, middleware, and deploying to production.
