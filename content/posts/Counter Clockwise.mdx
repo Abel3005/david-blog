@@ -1,0 +1,20 @@
+---
+title: Counter Clockwise algorithm
+description: explain how to see directional relationship between two vectors
+date: 2027-03-09
+tags:
+  - Algorithm
+  - Geometry
+---
+`Counter clockwise algorithm` is used to know whether two vector is revolved with counter clockwise or not. It enable us to know relationship between two nodes.
+In other words, these two vectors define  three points, allowing us to analyze their relative orientation.
+
+This algorithm is based on cross-product used in geometry.
+While the cross product is technically 3D operation, we can adapt its logic for 2D calculations.
+The 2D cross product of u = {u1, u2} and v = {v1, v2} results in a scalar value:
+u x v = u1v2 - u2v1
+
+For two vector in a 2D space, the cross product result determines their orientation:
+clockwise if negative, collinear if zero, and counter-clockwise if positive.
+
+Since the algorithm is named `Counter clockwise` , It's helpful to remember that a positive value indicates a counter-clockwise orientation.
