@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Counter-Clockwise.mdx",
+                "file": "Opic-preparation.mdx",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Counter-Clockwise"
+              "title": "Opic-preparation"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Counter-Clockwise.mdx",
+                "file": "Opic-preparation.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Counter-Clockwise"
+              "title": "Backlinks for Opic-preparation"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Counter-Clockwise.mdx",
+                "file": "Opic-preparation.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Counter-Clockwise"
+              "title": "Outgoing links from Opic-preparation"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Counter-Clockwise.mdx",
+                "file": "Opic-preparation.mdx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Counter-Clockwise"
+              "title": "Outline of Opic-preparation"
             }
           }
         ]
@@ -201,13 +201,16 @@
   },
   "active": "adad7e0a1dba2fc9",
   "lastOpenFiles": [
-    "Counter-Clockwise.mdx",
-    "Counter-Clockwise.mdx",
-    "Example.mdx",
-    "Untitled 1.md",
+    "Pasted image 20260309170842.png",
     "Welcome.md",
+    "Opic-preparation.mdx",
+    "Untitled.md",
+    "Example.mdx",
+    "create a link.md",
+    "Counter-Clockwise.mdx",
+    "Counter-Clockwise.mdx",
+    "Untitled 1.md",
     "Untitled 1.mdx",
-    "Welcome.mdx",
-    "Untitled.md"
+    "Welcome.mdx"
   ]
 }
