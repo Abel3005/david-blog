@@ -13,16 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Example.mdx",
+                "file": "Opic-preparation.mdx",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Example"
+              "title": "Opic-preparation"
             }
           },
           {
-            "id": "adad7e0a1dba2fc9",
+            "id": "bea917a22da5b951",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Repeat-Question-Answer.mdx",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Repeat-Question-Answer"
+            }
+          },
+          {
+            "id": "d4e09729e84c8cd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Opic-preparation.mdx",
+                "file": "Repeat-Question-Answer.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Opic-preparation"
+              "title": "Backlinks for Repeat-Question-Answer"
             }
           },
           {
@@ -128,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Opic-preparation.mdx",
+                "file": "Repeat-Question-Answer.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Opic-preparation"
+              "title": "Outgoing links from Repeat-Question-Answer"
             }
           },
           {
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Opic-preparation.mdx",
+                "file": "Repeat-Question-Answer.mdx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Opic-preparation"
+              "title": "Outline of Repeat-Question-Answer"
             }
           }
         ]
@@ -199,24 +213,29 @@
       "edit-mdx:New .mdx file": false
     }
   },
-  "active": "adad7e0a1dba2fc9",
+  "active": "d4e09729e84c8cd7",
   "lastOpenFiles": [
+    "Prompt-governance.mdx",
+    "Startup-personality.mdx",
+    "Opic-preparation.mdx",
+    "Repeat-Question-Answer.mdx",
+    "AI-Project-manage.mdx",
+    "images/스크린샷 2026-03-16 오전 11.05.14.png",
+    "images/스크린샷 2026-03-16 오전 11.05.02.png",
+    "images/스크린샷 2026-03-16 오전 11.04.49.png",
+    "What-I-want-to-be 2.mdx",
+    "Example.mdx",
+    "2026-03-10.md",
     "images/Pasted image 20260309174254.png",
     "Counter-Clockwise.mdx",
     "images/Pasted image 20260309174047.png",
-    "Opic-preparation.mdx",
     "images",
     "Users/david/workspace/david-blog/public/images/Pasted image 20260309173938.png",
     "Users/david/workspace/david-blog/public/images",
     "Users/david/workspace/david-blog/public",
-    "Users/david/workspace/david-blog",
-    "Users/david/workspace",
-    "Users/david",
-    "Users",
     "Pasted image 20260309170842.png",
     "Welcome.md",
     "Untitled.md",
-    "Example.mdx",
     "create a link.md",
     "Untitled 1.md"
   ]

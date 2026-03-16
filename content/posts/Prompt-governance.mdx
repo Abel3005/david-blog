@@ -1,0 +1,39 @@
+---
+title: Prompt governance is the new data governance
+description:
+date: 2026-03-16
+tags:
+  - proptengineer
+---
+Referenced by: https://www.cio.com/article/4130960/prompt-governance-is-the-new-data-governance.html
+
+Not long ago, prompt writing felt like a personal skill.
+But It has started to become important for organization.
+Yet, in many environments, prompts remain scattered across chat histories, documents and inboxes - unowned, unversioned and largely invisible. 
+In practice, prompts are quitely becoming enterprice interfaces, but without the governance structures we instinctively apply to data, code or systems.
+It creates `prompt sprawl` 
+
+## Prompt Sprawl as shadow IT operations
+Teams are using GenAI daily, often productively but prompts live everywhere: personal chat threads, shared documents, slack messages, wiki pages. **There is no single source of truth and no clear owner.** 
+
+It creates directly
+1. Outputs get reworked quietly because the user phrased the prompt just a bit differently
+2. No one notices about that
+
+This matters for three reasons CIOs care deeply about: reliability, efficiency and risk
+1. **Reliability**: When the same prompt yields different outputs depending on who runs it or how it's phrased, decision variance creeps in.
+2. **Efficiency**: As teams duplicate effort, reinvent prompts and rework outputs there is no shared definition of what "good" looks like.
+3. **Risk** : Ungoverned Prompts can **leak sensitive inputs**, **hallucinate policy** or **create inconsistent external messaging**
+
+Follows are demo Prompts admin dashboard for enterprise governance 
+![](스크린샷%202026-03-16%20오전%2011.04.49.png)
+Everery Prompt is tacked. and can be managed by using this dashboard
+![](스크린샷%202026-03-16%20오전%2011.05.02.png)
+Details meta data of Prompt
+![](스크린샷%202026-03-16%20오전%2011.05.14.png)
+
+But as you see, It can't contain full context. for example,
+```
+You are an executive report assistant. Given the following data: {data}, create a concise executive summary that highlights key metrics, trends, and actionable insights. Format the output with clear sections for Financial Performance, Operational Highlights, and Strategic Recommendations.
+```
+It don't have {data}. It may be mentioned previous time, or attaced in form of external file.
